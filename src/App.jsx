@@ -19,8 +19,6 @@ function App() {
       </header>
 
       <main className="main-content">
-        <CostCalculator />
-
         <div className="hero-section">
           <div className="hero-grid">
             <div className="hero-card no-hover">
@@ -35,6 +33,8 @@ function App() {
             </div>
           </div>
         </div>
+
+        <CostCalculator />
       </main>
 
       <footer className="app-footer">
