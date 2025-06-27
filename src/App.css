@@ -95,6 +95,10 @@ body {
   transform: translateY(-5px);
 }
 
+.hero-card.no-hover:hover {
+  transform: none;
+}
+
 .hero-icon {
   width: 3rem;
   height: 3rem;

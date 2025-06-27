@@ -19,22 +19,22 @@ function App() {
       </header>
 
       <main className="main-content">
+        <CostCalculator />
+
         <div className="hero-section">
           <div className="hero-grid">
-            <div className="hero-card">
+            <div className="hero-card no-hover">
               <DollarSign className="hero-icon" />
               <h3>Cost Optimization</h3>
               <p>Get real-time AWS pricing and optimization recommendations</p>
             </div>
-            <div className="hero-card">
+            <div className="hero-card no-hover">
               <TrendingUp className="hero-icon" />
               <h3>Market Ready</h3>
               <p>Prepare your infrastructure for AWS Marketplace launch</p>
             </div>
           </div>
         </div>
-
-        <CostCalculator />
       </main>
 
       <footer className="app-footer">
